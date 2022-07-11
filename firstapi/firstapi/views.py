@@ -1,4 +1,4 @@
-from django.http import JsonResponse
+
 from .models import employee
 from .serializers import employeeSerializer
 from rest_framework.decorators import api_view
